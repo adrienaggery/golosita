@@ -1,0 +1,169 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#container {
+	position: relative;
+    margin:0 auto;
+	width: 1024px;
+	height: 968px;
+	
+}
+body {
+	background-color: #f1ece8;
+    font-family: Raleway, 'Times New Roman';
+	font-weight: 400;
+	color: #3a3a3a;
+	font-size: 14px;
+}
+
+h1 {
+	font-family: "Playfair Display", Arial;
+	font-weight: 500;
+	color: #101020;
+	font-size: 30px;
+}
+
+.colonne-centre {
+	width: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+#navigation {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#menu {
+	display: flex;
+	justify-content: space-between;
+}
+
+#menu a {
+	display: inline-block;
+	margin: 0 16px;
+	color: #8c714c;
+	font-size: 15px;
+	font-weight: 600;
+	text-decoration: none;
+	letter-spacing: 1px;
+}
+#menu a:first-child { margin-left: 0px; }
+#menu a:last-child { margin-right: 0px; }
+
+#menu a.page-actuelle,
+#menu a:hover{
+	color: #563F20;
+}
+
+#contenus {
+	margin-top: 42px;
+	margin-bottom: 42px;
+}
+
+.contenu {
+	display: flex;
+	align-items: center;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+.contenu:first-child { margin-top: 0px; }
+.contenu:last-child { margin-bottom: 0px; }
+
+.tiret-marron {
+	width: 48px;
+	height: 2px;
+	margin-top: 14px;
+	margin-bottom: 24px;
+	background-color: #8c714c;
+}
+
+.text-left {
+	margin-right : 40px;
+	text-align: justify;
+}
+
+
+.text-right {
+	margin-left : 40px;
+	text-align: justify;
+}
+
+.texte-centre {
+	text-align: center;
+}
+
+#slider {
+	display: flex;
+	margin-top: 42px;
+	margin-bottom: 42px;
+}
+
+#applat-couleur {
+	background-color: #8c714c;
+	padding: 20px;
+	text-align: center;
+	color: #f1ece8;
+}
+
+.horizontal {
+	display: flex;
+	justify-content: space-between;
+}
+
+.tableau-lieux {
+	border-top: 1px solid #8c714c;
+	border-left: 1px solid #8c714c;
+	margin-right: 40px;
+}
+
+.tableau-lieux a {
+	color: #3a3a3a;
+}
+
+.tableau-lieux p {
+	padding: 10px;
+	border-bottom: 1px solid #8c714c;
+	border-right: 1px solid #8c714c;
+}
+
+.tableau-colonnes {
+	display: flex;
+}
+
+.tableau-jours {
+	width: 20%;
+}
+
+.tableau-heures {
+	width: 15%;
+}
+
+.tableau-adresse {
+	flex: 1;
+}
+
+#separation-pieddepage {
+	width: 96px;
+	height: 2px;
+	margin: 0 auto;
+	background-color: #8c714c;
+}
+
+#basdepage {
+	padding-top: 42px;
+	padding-bottom: 42px;
+	display: flex;
+	justify-content: space-between;
+	font-size: 10px;
+	text-align: center;
+}
